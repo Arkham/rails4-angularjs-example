@@ -13,6 +13,7 @@ gem 'turbolinks'
 gem 'rails-assets-underscore'
 gem 'rails-assets-angular'
 gem 'rails-assets-angular-mocks'
+gem 'rails-assets-angular-route'
 
 group :test do
   gem 'rspec-rails'

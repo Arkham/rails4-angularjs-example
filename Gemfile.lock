@@ -67,6 +67,8 @@ GEM
     rails-assets-angular (1.2.4)
     rails-assets-angular-mocks (1.2.5)
       rails-assets-angular (= 1.2.4)
+    rails-assets-angular-route (1.2.5)
+      rails-assets-angular (= 1.2.4)
     rails-assets-underscore (1.5.2)
     railties (4.0.0)
       actionpack (= 4.0.0)
@@ -123,6 +125,7 @@ DEPENDENCIES
   rails (= 4.0.0)
   rails-assets-angular
   rails-assets-angular-mocks
+  rails-assets-angular-route
   rails-assets-underscore
   rspec-rails
   sass-rails (~> 4.0.0)
