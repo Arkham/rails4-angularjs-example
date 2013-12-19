@@ -15,6 +15,10 @@ gem 'rails-assets-angular'
 gem 'rails-assets-angular-mocks'
 gem 'rails-assets-angular-route'
 
+group :development do
+  gem 'quiet_assets'
+end
+
 group :test do
   gem 'rspec-rails'
 end
