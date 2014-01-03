@@ -17,8 +17,11 @@ gem 'rails-assets-angular-route'
 
 group :development do
   gem 'quiet_assets'
+  gem 'spring'
+  gem 'spring-commands-rspec'
 end
 
-group :test do
+group :test, :development do
   gem 'rspec-rails'
+  gem 'pry-rails'
 end
